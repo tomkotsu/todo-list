@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../src/style.css">
+    <script src="./applogic.bundle.js"></script>
     <title>Todo-list</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="headbar">
+            <h1>To-Do</h1>
+        </div>
+        <div class="sidebar">
+            <h1>All</h1>
+            <div class="proj-heading">
+                <h2 class="proj-title">Projects</h2>
+                <button class="add-proj">+</button>
+            </div>
+            <div class="proj-panel">
+            </div>
+        </div>
+        <div class="main">
+            <input class="todo-inp">
+            <button class="todo-btn">Add To-Do</button>
+            <div class="todoList"></div>
+        </div>
+    </div>
 </body>
-<script src="main.js"></script>
+<script src="./index.bundle.js"></script>
 </html>
